@@ -1,0 +1,46 @@
+* {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.tarjeta {
+    padding: 10px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+img {
+    width: 50px;
+    float: right;
+    margin-right: 15px;
+}
+
+.tarjeta-cuerpo .parrafos {
+    width: 300px;
+}
+
+.inputs {
+    float: right;
+}
+
+input {
+    display: block;
+    width: 175px;
+    border: none;
+    border-bottom: 2px solid rgb(161, 160, 160);
+}
+
+.boton {
+    text-align: center;
+}
+
+button {
+    margin: 30px 0;
+}
